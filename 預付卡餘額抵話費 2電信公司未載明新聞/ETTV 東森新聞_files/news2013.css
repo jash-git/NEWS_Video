@@ -1,0 +1,783 @@
+@charset "utf-8";
+@charset "utf-8";
+body {
+	margin-left: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	background-color:#e5e5e5;/*再改*/
+	background-image:url(../images/bg.gif);
+	background-repeat:no-repeat;
+	background-position:center top;
+	font-size: 12px;
+	line-height: 18px;
+	color: #000;
+	font-family: "Arial", "細明體";
+}
+
+body img{border:0px; margin:0px; padding:0px;}
+
+ul,li{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+.iamhere {clear:both;}
+
+a {text-decoration:none;cursor:pointer;}
+a:hover {text-decoration:underline;cursor:pointer;}
+
+
+#wrap {
+	width: 1002px;
+	margin: auto;
+	display:block;
+	position:relative;
+}
+
+/*最上面一行---STR*/
+#topper {
+	width: 1002px;
+	height:83px;
+	margin: auto;
+	display:block; 
+	position:relative;
+}
+#logo{float:left;}
+#date{
+	float:left;
+	height:37px;
+	padding-top:46px;
+	color: #777;
+	/*line-height: 18px;*//*再改*/
+}
+.text_14{font-size: 14px;}/*再改*/
+
+#topright{
+	width:245px;
+	float:right;
+	padding-top:21px;
+	height:62px;
+	margin-right:30px;
+
+}
+#love{margin-bottom:3px;}
+#love a{color: Black;}
+#love a:hover{color: #AAA;}
+
+#search{
+	width:220px;
+	padding-top:2px;
+	height:22px;
+	border:5px #ecf0f4 solid;
+}
+#search span input{
+	margin-top:-2px;
+	height:18px;
+	width:190px;
+	float:left;
+	border-color:transparent;
+	color:#888;
+}
+#fb-top{
+	float:right;
+	padding-top:63px;/*63px*/
+	height:20px;
+	width:342px;/*282px*/
+	color:#3b579d;
+	font-weight: bolder;
+	margin-right:5px;
+}
+#fb-top a{
+    text-decoration:none;
+    color:#3b579d;
+}
+#fb-top a:hover{
+    color:#b4c2e1;
+}
+/*最上面一行---END*/
+
+/*MENU---STR*/
+#menu {
+	width: 942px;
+	height:40px;/*5改*/
+	font-size: 15px;
+	margin: auto;
+	display:block;
+	position:relative;
+	font-weight: bolder;
+	padding-left:60px;
+	/*margin-bottom:6px;*//*再改*/
+}
+#menu ul li {
+	display:block;
+	/*height:18px;*//*再改*/
+	float:left;
+}
+#menu ul li a img:hover{
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+/*#menu ul li a{
+	display:block;
+	padding:15px 20px;
+	color:#000000;
+	background-image:url(../images/00-d_07bg.jpg);
+	background-repeat:repeat-x;
+	background-position:top left;
+}*//*再改*/
+/*#menu ul li a:hover{
+	text-decoration:none;
+	background-image:url(../images/00-d_07bg.jpg);
+	background-repeat:repeat-x;
+	background-position:bottom left;
+}*//*再改*/
+/*MENU行---END*/
+/*MAIN---STR*/
+#main {
+	width: 1002px;
+	background-color:#fff;/*再改*/
+	padding-top:6px;/*再改*/
+	height:auto;
+	margin: auto;
+	/*margin-bottom: 10px;*//*再改*/
+	padding-bottom:5px;/*再改*/
+	display:block; 
+	position:relative;
+}
+#left{
+	width:180px;	
+	float:left;
+	margin-left:31px;
+	margin-right:20px;
+	clear:none;
+}
+#bigleft{
+	width:740px;	
+	float:left;
+	margin-left:31px;
+	clear:none;
+}
+#mid{
+	width:540px;	
+	float:left;
+	clear:none;
+}
+#right{
+	width:180px;	
+	float:right;
+	margin-left:20px;
+	margin-right:31px;
+	clear:none;
+}
+/*氣象*/
+#weather{width:180px;height:auto;}/*三改*/
+#weather-main{/*三改*/
+	width:180px;
+	height:140px;/*114px*/
+	background-color:#999999;
+	margin-bottom:7px;
+}
+/*好吃好玩好康*//*三改*/
+#gofun{
+	width:180px;
+	height:85px;/*108px*/
+	margin-bottom:7px;
+}
+/*blog*//*四改*/
+#blog{
+	width:180px;
+	height:55px;
+	margin-bottom:7px;
+}
+/*星座*/
+/*#astro{width:180px;height:auto;}
+#astro-main{
+	width:158px;
+	height:314px;
+	border:1px #d4d2dd solid;
+	padding:3px 10px;
+	border-top:0;
+	background-color:#f5f2ff;
+	margin-bottom:7px;
+}
+#astro-main #astro-main-area{
+    height:274px;
+    overflow:hidden;
+}
+#astro-main #astro-main-area div{
+    position:relative;
+}
+.astro-box{
+    padding:5px 0;
+    margin-bottom:5px;
+    border-bottom:1px #d4d2dd dashed;
+}
+.pink-text{
+    color:#f82885;
+    font-weight:bold;
+    font-size: 15px;
+}*//*三改*/
+
+/*精彩節目*/
+#program{width:180px;height:auto;}
+#program-main{
+	width:148px;/*三改*/
+	height:761px;/*三改*/ /*766px*/
+	border:1px #d4d2dd solid;
+	padding:3px 15px;/*三改*/ /*padding:7px 25px;*/
+	border-top:0;
+	background-color:#f2fff4;
+	margin-bottom:7px;/*7px*/
+	overflow:hidden;
+}
+#program-main div{
+    position:relative;
+}
+#program-main div img{
+	width:145px;/*三改*/
+	height:90px;/*三改*/
+	margin-bottom:5px;/*三改*/ /*7px*/
+	display:block;
+}
+/*輪播AD*/
+#topad{width:180px;height:auto;}/*三改*/
+#topad-main{/*三改*/
+	width:180px;
+	height:140px;
+	margin-bottom:7px;
+	overflow:hidden;
+}
+.topad-item{
+    width:180px;
+    height:140px;
+    position:absolute;
+}
+.topad-item div{
+    width:180px;
+    height:140px;
+}
+/*8號分機*/
+#no8{
+	width:180px;
+	height:337px;
+	margin-bottom:7px;
+}
+/*活動專區*/
+#active{width:180px;height:auto;}
+#active-main{
+	width:158px;
+	height:328px;/*332px*/
+	border:1px #d4d2dd solid;
+	padding:0 10px;
+	border-top:0;
+	background-color:#fffbe4;
+	margin-bottom:7px;
+	overflow:hidden;
+}
+#active-main div{
+    position:relative;
+}
+#active-main div img{
+	width:155px;
+	height:105px;
+	margin-bottom:5px;
+}
+/*新聞台FB*/
+#newsfb{
+	width:540px;/*再改*/
+	height:230px;/*再改*/
+	margin-bottom:7px;
+	
+}
+/*中間影音*/
+#video{
+	width:540px;
+	height:472px;/*再改*//*三改*/
+	margin-bottom:8px;/*再改*/
+	background-color:#000;
+}
+#video-utube{
+	width:540px;
+	height:363px;/*再改*/
+}
+#video-list{
+	width:540px;
+	height:77px;
+}
+.nowplaying{
+	float:left;
+	height:58px;
+	color:#fff6d5;
+	padding-right:3px;
+	font-size: 13px;
+}
+.nowplaying img{
+	width:77px;
+	height:56px;
+	float:left;
+	margin-right:5px;
+	cursor:pointer;
+	border:#FFF 1px solid;
+	/*border: #FF3 1px solid;正在播放的顏色*/
+}
+.nowplaying img:hover{
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+.nowplaying .videotitle{
+	float:left;
+	width:120px;
+	font-weight: bolder;
+}
+.nowplaying .videotitle:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+/*跑馬燈*/
+#marquee{
+	width:528px;
+	height:20px;
+	padding:6px;
+	font-size: 13px;
+	background-color:#cc0a13;/*再改*/
+	color: #fff;/*再改*/
+	font-weight: bolder;
+	margin-bottom:10px;
+	overflow: hidden; /* 超出範圍的部份要隱藏 */
+}
+div#abgne_marquee{
+    position:relative;
+    overflow: hidden; /* 超出範圍的部份要隱藏 */
+    height: 20px;
+}
+div#abgne_marquee ul, div#abgne_marquee li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+div#abgne_marquee ul{
+    position: absolute;
+    width: 780px;
+}
+div#abgne_marquee ul li{
+    overflow: hidden; /* 超出範圍的部份要隱藏 */
+    width: 528px;
+    height: 20px;
+}
+div#abgne_marquee ul li a{color: #fff;text-decoration:underline;}/*再改*/
+div#abgne_marquee ul li a:hover{color: #fff; text-decoration: none;}/*再改*/
+
+/*中間新聞LIST*/
+#index-news{
+	width:540px;
+	height:842px;/*再改*/
+	margin-bottom:6px;
+}
+.cate{
+	width:265px;
+	height:160px;
+	margin:0 2px;
+	margin-bottom:10px;
+	float:left;
+}
+.cate ul {padding-left:20px;}
+.cate ul li{
+	font-size: 13px;
+	line-height: 24px;
+	list-style-type:disc;
+}
+.red_text, .red_text a{color:#cc0a13;font-weight: bolder;}
+.black_text a{color:Black;}
+
+/*合作專區*/
+#friends{width:180px;height:auto;}/*再改*/
+#friends-main{
+	width:156px;
+	height:245px;/*252px*/ /*四改*/
+	/*height:307px;/*314px*/
+	border:1px #d4d2dd solid;
+	padding:0 11px;
+	border-top:0;
+	background-color:#eee;
+	padding-bottom:7px;/*7px*/
+	/*margin-bottom:9px;/*7px*/
+	overflow:hidden;
+}/*再改*/
+#friends-main div{
+    position:relative;
+    overflow:hidden;
+    height:307px;
+}
+#friends-main div img{
+	width:155px;
+	height:55px;
+	margin-bottom:7px;
+}/*再改*/
+
+/*MAIN---ENd*/
+
+/*節目表*/
+.show-box{
+	width:170px;
+	height:425px;
+	float:left;
+	margin:0 5px 10px 5px;
+}
+.show-box-top{
+	width:170px;
+	height:35px;
+	padding-top:15px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bolder;
+	background-image:url(../images/07-showtime_01.jpg);
+	background-repeat:no-repeat;
+}
+.show-box-main{
+	width:128px;
+	height:374px;
+	border:1px #d4d2dd solid;
+	border-top:0;
+	padding:0 20px;
+}
+/*新聞總覽*/
+#newsList_cate{
+	width:680px;
+	height:16px;
+	font-size: 15px;
+	background-color:#1d2088;
+	color:#FFF;
+	padding:7px 30px;
+}
+.yellow_text{color:#ffec00;font-weight: bolder;}
+#news-area {
+	padding: 7px 0;
+}
+.newslist-box{
+	width:726px;
+	height:76px;
+	padding:7px;
+	background-color:#f1f1f1;
+	margin-bottom:3px;
+}
+.newslist-box-pic{
+	width:100px;
+	height:75px;
+	float:left;
+	margin-right:5px;
+}
+.newslist-title{
+	float:left;
+	width:610px;
+	font-size: 15px;
+	font-weight: bolder;
+	clear:right;
+	margin-bottom:3px;
+}
+.newslist-title .newslist-title-txt:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+.gray_text, .gray_text a{
+	color:#a1a1a1;
+	font-weight: lighter;
+	font-size: 12px;
+	
+}
+.gray_text a:hover{
+	color:#555;
+	font-size: 12px;
+}
+.newslist-part{
+	float:left;
+	width:610px;
+	height:50px;
+	font-size: 13px;
+	
+}
+.page{
+	width:auto;
+	height:15px;
+	padding:15px;
+	text-align: center;
+	clear:both;
+}
+/*單一新聞*/
+#onenews-area{
+	width:714px;
+	padding:8px;
+	border:5px #ebefef solid;
+}
+#onenews-area a{
+    font-weight:normal;
+    text-decoration:none;
+    color:#3b579d;
+}
+#onenews-area a:hover{
+    color:#b4c2e1;
+}
+.onenews-title{font-size: 15px;}
+.onenews-media{
+	float:left;
+	width:400px;
+	height:300px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.onenews-contact{font-size: 15px;line-height: 20px;}
+.dot_line{clear:both;}
+.social{	
+	height:20px;
+	color:#3b579d;
+	font-weight: bolder;
+	text-align: right;
+}
+.fb-comm{width:740px;}
+
+/*精彩節目*/
+#program-area{
+	width:740px;
+}
+.program-box{
+	float:left;
+	width:366px;
+	height:258px;
+	margin:0 2px 7px 2px;
+}
+
+.program-box-top{
+	width:310px;
+	height:30px;
+	padding-top:21px;
+	padding-left:56px;
+	font-size: 15px;
+	color:#1d2088;
+	font-weight: bolder;
+	background-image:url(../images/03-wondershow_01.jpg);
+	background-repeat:no-repeat;
+}
+.program-box-main{
+	width:344px;
+	height:206px;
+	border:1px #d4d2dd solid;
+	border-top:0;
+	padding:0 10px;
+}
+.program-box-main-pic{
+	float:left;
+	width:200px;
+	height:160px;
+	margin-right:5px;
+}
+.program-box-main-text{font-size: 15px;}
+
+/*好吃好玩好康*/
+#fun-list{
+    margin:auto;
+    min-height:300px;
+    height: auto;
+}
+#fun-list th{
+	padding: 1px 3px 0px 3px;
+	font-size:9pt;
+	line-height:14pt;
+	color:#fff;
+	border:#fff solid 1px;
+}
+#fun-list td{
+	padding: 1px 3px 0px 3px;
+	border:#fff solid 1px;
+	font-size:9pt;
+	line-height:14pt;
+	color:#0b1b3b;
+	text-align:left;
+}
+.page div span a{
+	color:#a1a1a1;
+	font-weight: lighter;
+	font-size: 12px;
+	
+}
+.page div span a:hover{
+	color:#000;
+	font-size: 12px;
+}
+
+
+/*主播介紹*/
+#ancho-area{
+	width:940px;
+	height:auto;
+	margin:0 31px;
+}
+#ancho-list{
+	width:870px;/*870px*/
+	height:95px;
+	padding:55px 35px 16px 35px;
+	background-image:url(../images/05-ancho_01.jpg);
+	background-repeat:no-repeat;
+}
+#ancho-list .bx_wrap{
+    margin:0 45px;
+}
+#ancho-list .bx_wrap .prev{
+    position:absolute;
+    left:73px;
+    top:87px;
+}
+#ancho-list .bx_wrap .next{
+    position:absolute;
+    left:900px;
+    top:87px;
+}
+/*#ancho-list ul li {
+	float:left;
+	margin-right:14px;
+}*/
+#ancho-list ul li span{
+	width:65px;
+	text-align: center;
+	display:block;
+	font-size: 15px;
+	color:#1d2088;
+	font-weight: bolder;
+	margin-bottom:8px;
+}
+#ancho-ancho{
+	width:918px;
+	border:1px #d4d2dd solid;
+	border-top:0;
+	padding:10px;
+	text-align: center;
+}
+/*關鍵時刻*/
+
+#CTime-area{
+	width:940px;
+	height:auto;
+	margin:0 31px;
+}
+#CTime-main{
+	width:918px;
+	border:1px #d4d2dd solid;
+	border-top:0;
+	padding:10px;
+	text-align: center;
+}
+#CTime-text{
+	width:720px;
+	padding:5px 100px;
+	text-align: left;
+	font-size: 15px;
+	line-height: 20px;
+}
+#CTime-text a{
+	color:#000;
+}
+/*好吃好玩好康*/
+#fun-area{
+	width:940px;
+	height:auto;
+	margin:0 31px;
+}
+#fun-main{
+	width:918px;
+	border:1px #d4d2dd solid;
+	border-top:0;
+	padding:0 10px;
+	text-align: center;
+}
+#fun-text a{
+	color:#000;
+}
+#fun-cate{
+	width:908px;
+	height:21px;
+	font-size: 13px;
+	background-color:#1d2088;
+	color:#FFF;
+	padding:1px 5px 7px 5px;
+    
+	}
+#fun-cate table tr td input[type=text]{
+    height:18px;
+    padding:0;
+    margin:0;
+}
+#fun-cate table tr td input[type=button]{
+    height:20px;
+    padding:0;
+    margin:0;
+}
+/*瀏覽人次*/
+#count{	
+    height:17px;
+	padding:10px;
+	color:#202389;
+	text-align: center;
+	background-color:#fff;/*再改*/
+}
+#footer{	
+    height:50px;
+	padding:10px;
+	padding-top:25px;/*再改*/
+	/*margin-top:5px;*//*再改*/
+	line-height: 22px;
+	color:#000000;
+	background-color:#f3f3f3;
+	text-align: center;
+}
+#footer a{	color:#000000;}
+
+/*中間影音youtube iframe指定長寬*/
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*width: 100%;
+	height: 100%;*/
+}
+/*浮出來的*/
+#divCover{
+    background-color: #000;
+    filter: alpha(opacity=75);
+    opacity: 0.75;
+    height: 1002px;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 101;
+    display: none;
+}
+#divNo8{
+    background-color:transparent;
+    padding: 3px;
+    width: 600px;
+    height: 520px;/*520px*/
+    position: fixed;
+    z-index: 1002;
+    top: 0px;
+    display: none;
+    overflow-y: auto;
+}
+#divPopup{
+    background-color: transparent;
+    padding: 3px;
+    width: auto;/*706px*/
+    /*height: 456px;*/
+    position: fixed;
+    z-index: 1002;
+    /*margin-left: 10%;*/
+    top: 0px;
+    display: none;
+    overflow-y: hidden;
+}
